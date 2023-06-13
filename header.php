@@ -24,6 +24,21 @@
 
 <body>
 	<header>
+		<div class="header-web">
+			<div class="header-web-top">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Module 1 - Header 970x60025.png" class="logo-web">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic.search.svg" class="search-icon-web">
+			</div>
+			<div class="header-web-bottom">
+				<ul>
+					<li><a href="#">about us <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/seta-direita.png" class="arrow-menu"></a></li>
+					<li><a href="#">our products <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/seta-direita.png" class="arrow-menu"></a></li>
+					<li><a href="#">intimate health <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/seta-direita.png" class="arrow-menu"></a></li>
+					<li><a href="#">contact us</a></li>
+				</ul>
+			</div>
+		</div>
+
 		<div class="header-mobile">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic.menu.svg" class="menu-icon">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Module 1 - Header 970x60025.png" class="logo">
