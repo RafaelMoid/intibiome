@@ -1,0 +1,55 @@
+header {
+
+    //Header Mobile
+    $header-height: 70px;
+
+    .header-mobile {
+        height: $header-height;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 24px;
+        background-color: $white;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+        .logo {
+            max-height: 58px;
+        }
+    }
+
+    #fullscreen-menu {
+        display: none;
+        position: fixed;
+        top: $header-height;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $blue;
+
+        ul {
+            list-style: none;
+            padding-top: 55px;
+            margin-left: 40px;
+            height: calc(100% - $header-height);
+            display: flex;
+            flex-direction: column;
+
+            li {
+                margin-bottom: 48px;
+            }
+
+            a {
+                text-decoration: none;
+                @include font-bold-white-sm;
+                text-transform: lowercase;
+            }
+        }
+    }
+
+    /* CSS para exibir o menu em tela cheia */
+    .active {
+        display: block !important;
+    }
+
+    //Header Mobile
+}
