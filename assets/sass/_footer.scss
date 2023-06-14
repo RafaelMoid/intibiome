@@ -1,0 +1,91 @@
+#footer {
+    background-color: $blue;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 20.52vw 64px 20.52vw;
+
+    .navi-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        @include mobile {
+            flex-direction: column;
+        }
+
+        li {
+            padding: 15px 24px;
+
+            a {
+                @include font-bold-white-sm;
+                text-decoration: none;
+            }
+
+            border-right: 1px solid white;
+
+
+            &:first-child {
+                border: 0;
+            }
+
+            &:last-child {
+                border: 0;
+            }
+
+            @include mobile {
+                border: none;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 24px;
+                    height: 1px;
+                    background-color: $white;
+                    position: absolute;
+                    left: 50%;
+                    bottom: -2.5px;
+                    transform: translateX(-50%);
+                }
+
+                &:last-child::after {
+                    content: "";
+                    display: block;
+                    width: 24px;
+                    height: 0px;
+                    background-color: black;
+                    position: absolute;
+                    left: 50%;
+                    bottom: -5px;
+                    transform: translateX(-50%);
+                  }
+            }
+        }
+    }
+
+    .logos-wrapper {
+        width: 100%;
+        padding-top: 61px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 64px;
+        
+        @include mobile {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 0;
+
+            .icon-insta {
+                padding-bottom: 108px;
+            }
+        }
+    }
+}
