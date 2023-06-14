@@ -43,22 +43,32 @@ table {
     border-spacing: 0;
 }
 
-// Definir variável para a cor principal
-$cor-overflow: #006599;
-
-// Estilizar a barra de overflow
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: $cor-overflow;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: darken($cor-overflow, 10%);
-}
+/* Oculta a barra de rolagem no corpo do documento */
+body {
+    overflow: hidden;
+  }
+  
+  /* Estiliza a barra de rolagem no Google Chrome, Safari e Opera */
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  /* Estiliza a barra de rolagem no Firefox */
+  /* Nota: a partir do Firefox 64, a propriedade scrollbar-width é suportada */
+  /* Você pode remover o prefixo -moz- se estiver usando uma versão atualizada do Firefox */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+  
 
 // Adicionar scroll suave globalmente
 html {
@@ -128,4 +138,11 @@ $pink: #EE6381;
     }
 }
 
+//Mixins de Grid
+@mixin container {
+    max-width: 100%;
+    padding: 0 20.41vw;
+}
+
 @import 'header';
+@import 'home';
