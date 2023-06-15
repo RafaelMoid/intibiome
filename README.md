@@ -12,7 +12,7 @@ Lembrando que todo esse material vai estar traduzido para a lingua inglesa logo 
 ## Tecnologias usadas nesse projeto
 <ul>
     <li><a href="#sass">SASS</a></li>
-    <li><a href="acf">ACF</a></li>
+    <li><a href="#acf">ACF</a></li>
     <li><a href="#CPTUI">Custom Post Type UI</a></li>
     <li><a href="">Duplicator</a></li>
     <li><a href="">NPM</a></li>
