@@ -1,4 +1,9 @@
-## Wordpress Developer - Segunda etapa do processo seletivo!
+### Wordpress Developer - Segunda etapa do processo seletivo!
+
+<a href="#detalhamento-de-processos"> English Version </a>
+
+Olá humano, eu me chamo Rafael e vou te ajudar com a documentação dos processos e funcionamentos do site contido neste repositorio.
+Nós vamos passar pelas seções de Tecnologias usadas e a justificativa para suas escolhas, Detalhamento do desenvolvimento dos Elementos, Seções e 
 
 ## Tecnologias usadas nesse projeto
 <ul>
@@ -18,3 +23,6 @@
     estou aberto a me adaptar a cultura dos times de desenvolvimento sem resistencia.
 </p>
 
+## Detalhamento de processos
+
+<div id="detalhamento-de-processos"></div>
