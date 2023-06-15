@@ -3,20 +3,26 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="language" content="en">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!-- Meta configuration from Original Site -->
+	
+
+	<!-- Meta configuration from Original Site -->
+	<meta name="description" content="Explore our revolutionary products for intimate hygiene, and join the discussion about intimate wellness.">
 	<!-- Meta Tags para Open Graph  -->
-	<meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fiabesa-thumb.jpg" />
-	<meta property="og:image:secure_url" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fiabesa-thumb.jpg" />
+	<meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/wp-content/uploads/2023/06/intibiome.png" />
+	<meta property="og:image:secure_url" content="<?php echo get_stylesheet_directory_uri(); ?>/wp-content/uploads/2023/06/intibiome.png" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="519" />
 	<meta property="og:image:height" content="260" />
-	<meta property="og:image:alt" content="Fiabesa" />
+	<meta property="og:image:alt" content="Intibiome" />
 	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon-32x32.png">
 	<!-- Meta Tags para Open Graph  -->
 
-	<title>Intibiome</title>
+	<title>Home - Intibiome</title>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/main.css" />
 	<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/menu.js"></script>
 	<?php wp_head(); ?>
