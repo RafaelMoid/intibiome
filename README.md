@@ -29,13 +29,9 @@ Lembrando que todo esse material vai estar traduzido para a lingua inglesa logo 
 </p>
  </br></br>
 
-#### <h1 id="acf">ACF - Advanced Custom Field</h1>
-<p>O ACF é o plugin mais difundido comercialmente para o desenvolvimento de CMS usando WordPress, com ele eu consigo criar diversos campos de adição de conteudo simplificado, onde eu consigo via WordPress criar campos para o usuario inserir informação e coletar essa informação no tema com uso de PHP fazendo todo o trantamento e normatização do código.</p>
- </br></br>
-
 #### <h1 id="CPTUI">Custom Post Type UI</h1>
 <p>
-    O Custom Post Type UI é o plugin que eu tenho usado nos ultimos projetos para acelerar a criação de custom post types, eu poderia desenvolver esse código via functions.php porém para poder acelerar a entrega optei por usar o plugin, ainda se fará necessario o uso de PHP para iterar sobre os itens e as páginas archive.php e single-produto.php então espero que o uso dessa tecnologia não seja um impeditivo e caso vocês costumem fazer sem o uso do plugin eu posso faze-lo.
+    O Custom Post Type UI é o plugin que eu tenho usado nos ultimos projetos para acelerar a criação de custom post types e taxonomies, eu poderia desenvolver esse código via functions.php porém para poder acelerar a entrega optei por usar o plugin, ainda se fará necessario o uso de PHP para iterar sobre os itens e as páginas archive.php e single-produto.php então espero que o uso dessa tecnologia não seja um impeditivo e caso vocês costumem fazer sem o uso do plugin eu posso faze-lo.
     </br></br>
     Caso seja necessario fazer isso via functions.php basta falar comigo que eu te mostro o código, beleza?
 </p>
@@ -73,10 +69,6 @@ At the end we will have a bonus video tutorial, which until now has been a diffe
     </br></br>
     At main.scss file you will be able to see how I reset the css to normalize the page, you will also be able to find the global stylizations of the site and the translation of the XD Design System into style variables and mixins for responsiveness.
 </p>
- </br></br>
-
-#### <h1 id="acfEN">ACF - Advanced Custom Field</h1>
-<p>At brasilean web market ACF is the most commercially widespread plugin for developing CMS using WordPress, with it I can create several fields for adding simplified content, where I can via WordPress create fields for the user to enter information and collect this information in the theme using PHP doing all the processing and standardization of the code.</p>
  </br></br>
 
 #### <h1 id="CPTUIEN">Custom Post Type UI</h1>

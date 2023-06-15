@@ -28,23 +28,36 @@
 	<section class="our-products">
 		<h3>our products</h3>
 		<div class="grid-products">
-			<!-- Criar o Grid de produtos aqui -->
-			<!-- Criar o Grid de produtos aqui -->
-			<div class="produto">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image mask.png" class="image-card-produto">
-				<p class="upper-text">intibiome wellness daily intimate wash</p>
-				<p class="subtitle">wellness</p>
-			</div>
-			<div class="produto">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image mask.png" class="image-card-produto">
-				<p class="upper-text">intibiome active extra protection intimate wash</p>
-				<p class="subtitle">active</p>
-			</div>
-			<div class="produto">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image mask.png" class="image-card-produto">
-				<p class="upper-text">intibiome agecare dryness relief intimate wash</p>
-				<p class="subtitle">agecare</p>
-			</div>
+			<?php
+			$args = array(
+				'post_type' => 'produto',
+				'posts_per_page' => 3 // Exibe os 3 ultimos produtos
+				// 'posts_per_page' => -1 // Exibe todos os produtos
+			);
+
+			$loop = new WP_Query($args);
+
+			if ($loop->have_posts()) {
+				while ($loop->have_posts()) {
+					$loop->the_post();
+
+					// Iteração dos produtos via Loop
+			?>
+					<div class="produto">
+						<img src="<?php the_post_thumbnail_url(); ?>" />
+						<p class="upper-text"><?php echo get_the_excerpt(); ?></p>
+						<p class="subtitle"><?php the_title(); ?></p>
+					</div>
+			<?php
+
+				}
+			} else {
+				// Caso não haja produtos encontrados
+				echo 'Nenhum produto encontrado.';
+			}
+
+			wp_reset_postdata(); // Restaura os dados originais do post
+			?>
 		</div>
 	</section>
 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Asset 22.png" class="banner-produto-web">
