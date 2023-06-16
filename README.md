@@ -1,7 +1,7 @@
 # The Brooklyn Brothers Brasil
 ## Wordpress Developer - Segunda etapa do processo seletivo!
 
-<a href="#english"> English Version </a>
+<a href="#english" style="padding: 12px 24px; background-color:#389CD6; color:white;"> English Version </a>
 
 Olá humano, eu me chamo Rafael e vou te ajudar com a documentação dos processos e funcionamentos do site contido neste repositorio.
 Nós vamos passar pelas seções de Tecnologias usadas e a justificativa para suas escolhas, Detalhamento do desenvolvimento dos Elementos, Seções e componentes do projeto e um bonus lá no final se você gostou de me conhecer que quer saber mais sobre mim.
